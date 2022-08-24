@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <label for="A">Number A</label>
+    <input type="text" id="A"><br>
+    <label for="B">Number B</label>
+    <input type="text" id="B"><br>
+    <label for="C">Number C</label>
+    <input type="text" id="C"><br>
+   </form>
+    <button type="submit" style="margin-bottom: 40px;">Ok</button>
+
+<form>
+    <label for="year">Year</label>
+    <input type="text" id="year"><br>
+    <label for="month">Month</label>
+    <input type="text" id="month">
+</form>
+<button type="submit" class="btn" style="margin-bottom: 40px;">Ok</button>
+
+<form>
+    <div class="container"></div>
+    <select name="days" id="days" style="margin-bottom:40px;">
+        <option value="Понеділок">Понеділок</option>
+        <option value="Вівторок">Вівторок</option>
+        <option value="Середа">Середа</option>
+        <option value="Четвер">Четвер</option>
+        <option value="П'ятниця">П'ятниця</option>
+        <option value="Субота">Субота</option>
+        <option value="Неділя">Неділя</option>
+    </select>
+</form>
+
+<form id="form1" >
+ <div style="border: 1px solid black; width: 50%; padding-bottom: 10px;">
+    <p style="margin-top: -4%; background-color: white; width: 30%;">Тип житла:</p>
+    <input type="radio" id="new-build"
+     name="build" value="new-build">
+    <label for="new-build">Новобуд(багатоквартирний)</label><br>
+
+    <input type="radio" id="second-build"
+     name="build" value="second-build">
+    <label for="second-build">Вторинне житло(багатоквартирний)</label><br>
+
+    <input type="radio" id="house"
+     name="build" value="house">
+    <label for="house">Приватний будинок</label>
+ </div>
+</form>
+<div style="border: 1px solid black; width: 50%; padding-top: 10px; padding-bottom: 10px;" >
+    <label for="price">Ціна: </label>
+<input type="text" id="price" form="form1"><br>
+<label for="floor">Поверх: </label>
+<input type="text" id="floor" form="form1"><br>
+</div>
+<button type="submit" class="btn-build">OK</button>
+
+   
+</body>
+<script src="./JS/task-forms.js"></script>
+</html>
