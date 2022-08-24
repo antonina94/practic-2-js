@@ -1,11 +1,11 @@
 // Завдання 1. Вивести привітання для змінної, якщо вона не порожня
 
-// let showMessage = 'Hello';
+let showMessage = 'Hello';
 
-// if(showMessage !== ''){
-//     alert('hello')
-// }
-// else(alert('пуста стрічка'))
+if(showMessage !== ''){
+    alert('hello')
+}
+else(alert('пуста стрічка'))
 
 // Завдання 2. Дано ціле число a. Визначити, чи воно парне (вивести “Yes” або “No”)
  const number = Number(prompt('Чи парне число'));
